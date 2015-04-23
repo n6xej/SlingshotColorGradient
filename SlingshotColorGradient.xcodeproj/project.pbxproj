@@ -21,9 +21,6 @@
 		CEB3ED471AE965D900CBFB88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB3ED431AE965D900CBFB88 /* Foundation.framework */; };
 		CEB3ED481AE965D900CBFB88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB3ED441AE965D900CBFB88 /* QuartzCore.framework */; };
 		CEB3ED491AE965D900CBFB88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB3ED451AE965D900CBFB88 /* UIKit.framework */; };
-		CEB3ED4E1AE96C7C00CBFB88 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB3ED4B1AE96C7C00CBFB88 /* background.png */; };
-		CEB3ED4F1AE96C7C00CBFB88 /* Draw.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB3ED4C1AE96C7C00CBFB88 /* Draw.png */; };
-		CEB3ED501AE96C7C00CBFB88 /* DrawSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB3ED4D1AE96C7C00CBFB88 /* DrawSelected.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,9 +46,6 @@
 		CEB3ED431AE965D900CBFB88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEB3ED441AE965D900CBFB88 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CEB3ED451AE965D900CBFB88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		CEB3ED4B1AE96C7C00CBFB88 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		CEB3ED4C1AE96C7C00CBFB88 /* Draw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Draw.png; sourceTree = "<group>"; };
-		CEB3ED4D1AE96C7C00CBFB88 /* DrawSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrawSelected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +82,6 @@
 		CEB3ED0A1AE9647500CBFB88 /* SlingshotColorGradient */ = {
 			isa = PBXGroup;
 			children = (
-				CEB3ED4B1AE96C7C00CBFB88 /* background.png */,
-				CEB3ED4C1AE96C7C00CBFB88 /* Draw.png */,
-				CEB3ED4D1AE96C7C00CBFB88 /* DrawSelected.png */,
 				CEB3ED311AE9655C00CBFB88 /* ColorGradientViewController.h */,
 				CEB3ED321AE9655C00CBFB88 /* ColorGradientViewController.m */,
 				CEB3ED331AE9655C00CBFB88 /* drawingObjects.h */,
@@ -190,10 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB3ED401AE9655C00CBFB88 /* MainWindow.xib in Resources */,
-				CEB3ED4E1AE96C7C00CBFB88 /* background.png in Resources */,
 				CEB3ED1C1AE9647500CBFB88 /* LaunchScreen.xib in Resources */,
-				CEB3ED4F1AE96C7C00CBFB88 /* Draw.png in Resources */,
-				CEB3ED501AE96C7C00CBFB88 /* DrawSelected.png in Resources */,
 				CEB3ED3F1AE9655C00CBFB88 /* ionicons.ttf in Resources */,
 				CEB3ED191AE9647500CBFB88 /* Images.xcassets in Resources */,
 			);
