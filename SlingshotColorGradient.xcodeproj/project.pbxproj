@@ -9,22 +9,19 @@
 /* Begin PBXBuildFile section */
 		CEB3ED0E1AE9647500CBFB88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3ED0D1AE9647500CBFB88 /* main.m */; };
 		CEB3ED111AE9647500CBFB88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3ED101AE9647500CBFB88 /* AppDelegate.m */; };
-		CEB3ED141AE9647500CBFB88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3ED131AE9647500CBFB88 /* ViewController.m */; };
-		CEB3ED171AE9647500CBFB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB3ED151AE9647500CBFB88 /* Main.storyboard */; };
 		CEB3ED191AE9647500CBFB88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB3ED181AE9647500CBFB88 /* Images.xcassets */; };
 		CEB3ED1C1AE9647500CBFB88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB3ED1A1AE9647500CBFB88 /* LaunchScreen.xib */; };
-		CEB3ED281AE9647500CBFB88 /* SlingshotColorGradientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3ED271AE9647500CBFB88 /* SlingshotColorGradientTests.m */; };
+		CEB3ED3C1AE9655C00CBFB88 /* ColorGradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3ED321AE9655C00CBFB88 /* ColorGradientViewController.m */; };
+		CEB3ED3D1AE9655C00CBFB88 /* drawingObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3ED341AE9655C00CBFB88 /* drawingObjects.m */; };
+		CEB3ED3E1AE9655C00CBFB88 /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3ED371AE9655C00CBFB88 /* IonIcons.m */; };
+		CEB3ED3F1AE9655C00CBFB88 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB3ED381AE9655C00CBFB88 /* ionicons.ttf */; };
+		CEB3ED401AE9655C00CBFB88 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB3ED391AE9655C00CBFB88 /* MainWindow.xib */; };
+		CEB3ED411AE9655C00CBFB88 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3ED3B1AE9655C00CBFB88 /* PaintView.m */; };
+		CEB3ED461AE965D900CBFB88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB3ED421AE965D900CBFB88 /* CoreGraphics.framework */; };
+		CEB3ED471AE965D900CBFB88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB3ED431AE965D900CBFB88 /* Foundation.framework */; };
+		CEB3ED481AE965D900CBFB88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB3ED441AE965D900CBFB88 /* QuartzCore.framework */; };
+		CEB3ED491AE965D900CBFB88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB3ED451AE965D900CBFB88 /* UIKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CEB3ED221AE9647500CBFB88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEB3ED001AE9647500CBFB88 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEB3ED071AE9647500CBFB88;
-			remoteInfo = SlingshotColorGradient;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CEB3ED081AE9647500CBFB88 /* SlingshotColorGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlingshotColorGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,14 +29,23 @@
 		CEB3ED0D1AE9647500CBFB88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEB3ED0F1AE9647500CBFB88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEB3ED101AE9647500CBFB88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEB3ED121AE9647500CBFB88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEB3ED131AE9647500CBFB88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CEB3ED161AE9647500CBFB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEB3ED181AE9647500CBFB88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEB3ED1B1AE9647500CBFB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CEB3ED211AE9647500CBFB88 /* SlingshotColorGradientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlingshotColorGradientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEB3ED261AE9647500CBFB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEB3ED271AE9647500CBFB88 /* SlingshotColorGradientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlingshotColorGradientTests.m; sourceTree = "<group>"; };
+		CEB3ED311AE9655C00CBFB88 /* ColorGradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGradientViewController.h; sourceTree = "<group>"; };
+		CEB3ED321AE9655C00CBFB88 /* ColorGradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorGradientViewController.m; sourceTree = "<group>"; };
+		CEB3ED331AE9655C00CBFB88 /* drawingObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawingObjects.h; sourceTree = "<group>"; };
+		CEB3ED341AE9655C00CBFB88 /* drawingObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawingObjects.m; sourceTree = "<group>"; };
+		CEB3ED351AE9655C00CBFB88 /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
+		CEB3ED361AE9655C00CBFB88 /* IonIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IonIcons.h; sourceTree = "<group>"; };
+		CEB3ED371AE9655C00CBFB88 /* IonIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IonIcons.m; sourceTree = "<group>"; };
+		CEB3ED381AE9655C00CBFB88 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		CEB3ED391AE9655C00CBFB88 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CEB3ED3A1AE9655C00CBFB88 /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		CEB3ED3B1AE9655C00CBFB88 /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+		CEB3ED421AE965D900CBFB88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEB3ED431AE965D900CBFB88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEB3ED441AE965D900CBFB88 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEB3ED451AE965D900CBFB88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,13 +53,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEB3ED1E1AE9647500CBFB88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CEB3ED461AE965D900CBFB88 /* CoreGraphics.framework in Frameworks */,
+				CEB3ED471AE965D900CBFB88 /* Foundation.framework in Frameworks */,
+				CEB3ED481AE965D900CBFB88 /* QuartzCore.framework in Frameworks */,
+				CEB3ED491AE965D900CBFB88 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				CEB3ED0A1AE9647500CBFB88 /* SlingshotColorGradient */,
-				CEB3ED241AE9647500CBFB88 /* SlingshotColorGradientTests */,
 				CEB3ED091AE9647500CBFB88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				CEB3ED081AE9647500CBFB88 /* SlingshotColorGradient.app */,
-				CEB3ED211AE9647500CBFB88 /* SlingshotColorGradientTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,14 +82,20 @@
 		CEB3ED0A1AE9647500CBFB88 /* SlingshotColorGradient */ = {
 			isa = PBXGroup;
 			children = (
-				CEB3ED0F1AE9647500CBFB88 /* AppDelegate.h */,
-				CEB3ED101AE9647500CBFB88 /* AppDelegate.m */,
-				CEB3ED121AE9647500CBFB88 /* ViewController.h */,
-				CEB3ED131AE9647500CBFB88 /* ViewController.m */,
-				CEB3ED151AE9647500CBFB88 /* Main.storyboard */,
+				CEB3ED311AE9655C00CBFB88 /* ColorGradientViewController.h */,
+				CEB3ED321AE9655C00CBFB88 /* ColorGradientViewController.m */,
+				CEB3ED331AE9655C00CBFB88 /* drawingObjects.h */,
+				CEB3ED341AE9655C00CBFB88 /* drawingObjects.m */,
+				CEB3ED351AE9655C00CBFB88 /* ionicons-codes.h */,
+				CEB3ED361AE9655C00CBFB88 /* IonIcons.h */,
+				CEB3ED371AE9655C00CBFB88 /* IonIcons.m */,
+				CEB3ED381AE9655C00CBFB88 /* ionicons.ttf */,
+				CEB3ED3A1AE9655C00CBFB88 /* PaintView.h */,
+				CEB3ED3B1AE9655C00CBFB88 /* PaintView.m */,
 				CEB3ED181AE9647500CBFB88 /* Images.xcassets */,
 				CEB3ED1A1AE9647500CBFB88 /* LaunchScreen.xib */,
 				CEB3ED0B1AE9647500CBFB88 /* Supporting Files */,
+				CEB3ED4A1AE965E900CBFB88 /* Frameworks */,
 			);
 			path = SlingshotColorGradient;
 			sourceTree = "<group>";
@@ -96,27 +103,24 @@
 		CEB3ED0B1AE9647500CBFB88 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEB3ED391AE9655C00CBFB88 /* MainWindow.xib */,
+				CEB3ED0F1AE9647500CBFB88 /* AppDelegate.h */,
+				CEB3ED101AE9647500CBFB88 /* AppDelegate.m */,
 				CEB3ED0C1AE9647500CBFB88 /* Info.plist */,
 				CEB3ED0D1AE9647500CBFB88 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CEB3ED241AE9647500CBFB88 /* SlingshotColorGradientTests */ = {
+		CEB3ED4A1AE965E900CBFB88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEB3ED271AE9647500CBFB88 /* SlingshotColorGradientTests.m */,
-				CEB3ED251AE9647500CBFB88 /* Supporting Files */,
+				CEB3ED421AE965D900CBFB88 /* CoreGraphics.framework */,
+				CEB3ED431AE965D900CBFB88 /* Foundation.framework */,
+				CEB3ED441AE965D900CBFB88 /* QuartzCore.framework */,
+				CEB3ED451AE965D900CBFB88 /* UIKit.framework */,
 			);
-			path = SlingshotColorGradientTests;
-			sourceTree = "<group>";
-		};
-		CEB3ED251AE9647500CBFB88 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CEB3ED261AE9647500CBFB88 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +143,6 @@
 			productReference = CEB3ED081AE9647500CBFB88 /* SlingshotColorGradient.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEB3ED201AE9647500CBFB88 /* SlingshotColorGradientTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEB3ED2E1AE9647500CBFB88 /* Build configuration list for PBXNativeTarget "SlingshotColorGradientTests" */;
-			buildPhases = (
-				CEB3ED1D1AE9647500CBFB88 /* Sources */,
-				CEB3ED1E1AE9647500CBFB88 /* Frameworks */,
-				CEB3ED1F1AE9647500CBFB88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEB3ED231AE9647500CBFB88 /* PBXTargetDependency */,
-			);
-			name = SlingshotColorGradientTests;
-			productName = SlingshotColorGradientTests;
-			productReference = CEB3ED211AE9647500CBFB88 /* SlingshotColorGradientTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +154,6 @@
 				TargetAttributes = {
 					CEB3ED071AE9647500CBFB88 = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					CEB3ED201AE9647500CBFB88 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = CEB3ED071AE9647500CBFB88;
 					};
 				};
 			};
@@ -189,7 +171,6 @@
 			projectRoot = "";
 			targets = (
 				CEB3ED071AE9647500CBFB88 /* SlingshotColorGradient */,
-				CEB3ED201AE9647500CBFB88 /* SlingshotColorGradientTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +180,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB3ED171AE9647500CBFB88 /* Main.storyboard in Resources */,
+				CEB3ED401AE9655C00CBFB88 /* MainWindow.xib in Resources */,
 				CEB3ED1C1AE9647500CBFB88 /* LaunchScreen.xib in Resources */,
+				CEB3ED3F1AE9655C00CBFB88 /* ionicons.ttf in Resources */,
 				CEB3ED191AE9647500CBFB88 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEB3ED1F1AE9647500CBFB88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,39 +194,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB3ED141AE9647500CBFB88 /* ViewController.m in Sources */,
+				CEB3ED3C1AE9655C00CBFB88 /* ColorGradientViewController.m in Sources */,
 				CEB3ED111AE9647500CBFB88 /* AppDelegate.m in Sources */,
+				CEB3ED3D1AE9655C00CBFB88 /* drawingObjects.m in Sources */,
+				CEB3ED411AE9655C00CBFB88 /* PaintView.m in Sources */,
 				CEB3ED0E1AE9647500CBFB88 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEB3ED1D1AE9647500CBFB88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEB3ED281AE9647500CBFB88 /* SlingshotColorGradientTests.m in Sources */,
+				CEB3ED3E1AE9655C00CBFB88 /* IonIcons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		CEB3ED231AE9647500CBFB88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEB3ED071AE9647500CBFB88 /* SlingshotColorGradient */;
-			targetProxy = CEB3ED221AE9647500CBFB88 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		CEB3ED151AE9647500CBFB88 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEB3ED161AE9647500CBFB88 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEB3ED1A1AE9647500CBFB88 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SlingshotColorGradient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,43 +312,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SlingshotColorGradient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		CEB3ED2F1AE9647500CBFB88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SlingshotColorGradientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlingshotColorGradient.app/SlingshotColorGradient";
-			};
-			name = Debug;
-		};
-		CEB3ED301AE9647500CBFB88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SlingshotColorGradientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlingshotColorGradient.app/SlingshotColorGradient";
 			};
 			name = Release;
 		};
@@ -414,14 +336,6 @@
 			buildConfigurations = (
 				CEB3ED2C1AE9647500CBFB88 /* Debug */,
 				CEB3ED2D1AE9647500CBFB88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		CEB3ED2E1AE9647500CBFB88 /* Build configuration list for PBXNativeTarget "SlingshotColorGradientTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEB3ED2F1AE9647500CBFB88 /* Debug */,
-				CEB3ED301AE9647500CBFB88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
