@@ -6,7 +6,7 @@ Select a Pen and Color similar to the way SlingShot does
 #MIT License
 	The MIT License (MIT)
 
-	Copyright (c) 2015 Andrea Mazzini
+	Copyright (c) 2014 Christopher Worley
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy of
 	this software and associated documentation files (the "Software"), to deal in
